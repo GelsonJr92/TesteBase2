@@ -60,7 +60,7 @@ Os relatórios podem ser encontrados no diretório:
 # /reports/
 # O arquivo gerado inclui informações detalhadas sobre cada teste executado, status, e evidências (screenshots) de falhas.
 
-#Configuração
+# Configuração
 O arquivo config.properties permite configurar variáveis como URL base da aplicação, tempo de espera, e navegador utilizado.
 Contato
 Em caso de dúvidas ou problemas, entre em contato com o desenvolvedor do projeto. 
