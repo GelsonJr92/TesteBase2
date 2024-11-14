@@ -2,7 +2,7 @@
 # Descrição do Projeto
 # Este projeto automatiza testes para a aplicação Mantis, utilizando uma stack moderna composta por Selenium, Cucumber e Java. Ele inclui geração de relatórios automáticos e execução modularizada para cenários de teste.
 
-#Estrutura do Projeto
+# Estrutura do Projeto
 src/test/java/config: Classes para configuração geral do projeto, como leitura de propriedades e configurações iniciais.
 
 Config.java
