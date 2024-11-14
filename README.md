@@ -88,6 +88,28 @@ Execute o seguinte comando na raiz do projeto:
 ```bash
 mvn test
 ```
+Comando alternativo caso de algum erro em alguma dependência 
+```bash
+mvn clean install -U
+```
+### 1. clean
+Remove todos os arquivos gerados na última compilação do projeto, como:
+Arquivos .class.
+Arquivos JAR/WAR gerados.
+Pasta target (ou diretório de build configurado).
+Objetivo: Garante uma compilação limpa, evitando conflitos com arquivos antigos.
+### 2. install
+Compila o código-fonte do projeto.
+Executa os testes configurados.
+Empacota o projeto (em JAR ou WAR, dependendo do tipo de aplicação).
+Instala o artefato empacotado no repositório local do Maven (geralmente em ~/.m2/repository).
+Objetivo: Disponibilizar o artefato para que outros projetos possam utilizá-lo como dependência.
+### 3. -U (Update Snapshots)
+Força o Maven a atualizar dependências SNAPSHOT do repositório remoto.
+Dependências SNAPSHOT são versões em desenvolvimento, frequentemente atualizadas.
+Objetivo: Garante que a versão mais recente de uma dependência SNAPSHOT seja baixada e utilizada.
+
+
 
 #### IDE (IntelliJ IDEA, Eclipse)  
 Execute diretamente os test runners a partir do arquivo `TestRunner.java`.
