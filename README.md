@@ -3,31 +3,32 @@
 # Este projeto automatiza testes para a aplicação Mantis, utilizando uma stack moderna composta por Selenium, Cucumber e Java. Ele inclui geração de relatórios automáticos e execução modularizada para cenários de teste.
 
 # Estrutura do Projeto
-src/test/java/config: Classes para configuração geral do projeto, como leitura de propriedades e configurações iniciais.
+# src/test/java/config: Classes para configuração geral do projeto, como leitura de propriedades e configurações iniciais.
 
 Config.java
 ConfigReader.java
-src/test/java/pages: Classes de Page Object Model para encapsular elementos e interações da interface.
+
+# src/test/java/pages: Classes de Page Object Model para encapsular elementos e interações da interface.
 
 BasePage.java
 LoginPage.java
 TarefaPage.java
-src/test/java/runners: Configuração dos test runners.
+# src/test/java/runners: Configuração dos test runners.
 
 TestRunner.java
-src/test/java/steps: Implementação dos passos das features.
+# src/test/java/steps: Implementação dos passos das features.
 
 Hooks.java
 LoginSteps.java
 TarefaSteps.java
-src/test/java/utils: Utilitários para suportar ações como geração de dados, manipulação de drivers e relatórios.
+# src/test/java/utils: Utilitários para suportar ações como geração de dados, manipulação de drivers e relatórios.
 
 BugDataGenerator.java
 ConfigExtentReport.java
 DriverManager.java
 DropdownUtils.java
 WaitUtils.java
-src/test/resources: Arquivos de configuração e cenários de teste.
+# src/test/resources: Arquivos de configuração e cenários de teste.
 
 config.properties
 features/: Cenários em Gherkin.
@@ -38,7 +39,7 @@ Dependências
 
 selenium-java: 4.26.0
 cucumber-java: 7.x
-extent-reports: Para geração de relatórios de execução.
+# extent-reports: Para geração de relatórios de execução.
 # Execução dos Testes
 Pré-requisitos
 Java 11+ instalado e configurado no PATH.
@@ -63,4 +64,4 @@ Os relatórios podem ser encontrados no diretório:
 # Configuração
 O arquivo config.properties permite configurar variáveis como URL base da aplicação, tempo de espera, e navegador utilizado.
 Contato
-Em caso de dúvidas ou problemas, entre em contato com o desenvolvedor do projeto. 
+# Em caso de dúvidas ou problemas, entre em contato com o desenvolvedor do projeto. 
