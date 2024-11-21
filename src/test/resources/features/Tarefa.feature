@@ -11,7 +11,7 @@ Funcionalidade: Cadastro de Tarefa
     Então a tarefa deve ser cadastrada com sucesso
 
   @cadastroDeTarefaComSucessoPublica
-  Cenario: Cadastro de tarefa com sucesso marcando a visibilidade como privada
+  Cenario: Cadastro de tarefa com sucesso marcando a visibilidade como publica
     Dado que o usuário está na página de cadastro de tarefas
     Quando o usuário insere os dados da tarefa
     E informa a visibilidade como publica
