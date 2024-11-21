@@ -208,6 +208,8 @@ As variáveis de ambiente do projeto, como a URL base, tempo de espera e navegad
 ```plaintext
 src/test/resources/config.properties
 ```
+## Para o step que precisa anexar um documento, passar o caminho do arquivo na chamada do método uploadFile
+
 
 ## Contato  
 
