@@ -11,7 +11,7 @@ import org.openqa.selenium.firefox.FirefoxOptions;
 import config.ConfigReader;
 
 public class DriverManager {
-    static WebDriver driver;
+    public static WebDriver driver;
 
     public static WebDriver getDriver() {
         if (driver == null) {
@@ -32,7 +32,7 @@ public class DriverManager {
                     WebDriverManager.firefoxdriver().setup();
                     FirefoxOptions firefoxOptions = new FirefoxOptions();
                     if (isHeadless) {
-                        firefoxOptions.addArguments("--headless");
+                        firefoxOptions.addArguments("--headless", "--disable-gpu", "--window-size=1920,1080");
                     }
                     firefoxOptions.addArguments("--start-maximized");
                     driver = new FirefoxDriver(firefoxOptions);

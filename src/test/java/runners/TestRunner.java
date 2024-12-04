@@ -11,9 +11,7 @@ import org.junit.runner.RunWith;
         plugin = {
                 "pretty",
                 "summary",
-                //"json:target/cucumber-reports/CucumberTestReport.json",
-                //"html:target/cucumber-reports/cucumber-pretty.html",
-                "timeline:target/timeline-report", // Relatório de linha do tempo
+                "timeline:target/timeline-report",
                 "com.aventstack.extentreports.cucumber.adapter.ExtentCucumberAdapter:"
         },
         monochrome = true,
